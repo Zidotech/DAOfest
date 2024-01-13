@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&family=Poppins:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsla(19, 56%, 88%, 0.25);
+}
+
+.hero__bg {
+  position: relative;
+  height: 100vh; /* Make the container take the full viewport height */
+  background-image: url("./assets/hero_bg.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.section {
+  width: 94%;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+}
+
+@media screen and (max-width: 600px) {
+  .hero__bg {
+    height: 85vh;
+  }
+  .tab-buttons button {
+    font-size: 5px;
+    padding: 10px 5px;
+  }
+}
+
+.about {
+  background-color: hsla(19, 55%, 88%, 1);
+}
+
+.card {
+  background: linear-gradient(
+    to bottom,
+    hsla(19, 84%, 58%, 0.63),
+    hsla(19, 56%, 88%, 0.7)
+  );
+  padding: 20px 28px;
+}
+
+/* .timer {
+  background: linear-gradient(
+    to right bottom,
+    hsla(0, 0%, 100%, 0.6),
+    hsla(0, 0%, 100%, 0)
+  );
+} */
+
+.text-with-colored-underline {
+  text-decoration: underline;
+  text-decoration-color: hsla(240, 100%, 50%, 1);
+  color: inherit;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+.organizer {
+  background-color: hsla(19, 56%, 88%, 1);
+}
+
+footer {
+  background-color: hsla(19, 56%, 88%, 1);
+}
+
+.tab-content > div {
+  display: none;
+  margin-top: 10px;
+}
+
+.tab-content > div.active {
+  display: block;
+}
+
+.tab-buttons button {
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+  color: hsla(0, 0%, 31%, 1);
+}
+
+.tab-buttons button.active {
+  border-bottom: 4px solid;
+  border-color: hsla(240, 100%, 50%, 1);
+  font-weight: 700;
+  color: black;
+}
