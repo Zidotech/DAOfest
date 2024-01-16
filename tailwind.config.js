@@ -7,6 +7,8 @@ export default {
         Primary: "hsla(240, 100%, 50%, 1)",
         Green: "hsla(105, 100%, 50%, 1)",
         Brown: "hsla(19, 93%, 48%, 1)",
+        BrowN: "hsl(19, 93%, 48%)",
+        Blue: "hsl(240, 100%, 50%)",
         White: " hsla(0, 0%, 100%, 1)",
         Light1: "hsla(168, 100%, 36%, 0.15)",
         Light2: "hsla(197, 92%, 68%, 0.15)",

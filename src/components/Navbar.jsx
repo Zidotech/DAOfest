@@ -64,7 +64,7 @@ const Navbar = () => {
             <div
               className={`${
                 toggleMenu ? "block" : "hidden"
-              } bg-Nav z-50 absolute top-0 left-0 right-0 w-full h-[46vh] p-3`}
+              } bg-Nav z-50 absolute top-0 left-0 right-0 w-full h-[45vh] p-3`}
             >
               <div className="flex justify-between items-center">
                 <div className="">
@@ -124,9 +124,11 @@ const Navbar = () => {
                 </li>
               </ul>
 
-              <button className=" mt-6 py-[14px] px-[42px] bg-Primary text-[16px] font-Poppins rounded-2xl text-White">
-                Get In Touch
-              </button>
+              <Link target="_blank" to={"mailto:info@daofest.xyz"}>
+                <button className=" mt-6 py-[14px] px-[42px] bg-Primary text-[16px] font-Poppins rounded-2xl text-White">
+                  Get In Touch
+                </button>{" "}
+              </Link>
             </div>
           )}
         </div>

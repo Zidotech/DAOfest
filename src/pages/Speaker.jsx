@@ -26,7 +26,11 @@ const Speaker = () => {
         <div className="flex gap-16 flex-wrap justify-center">
           {SpeakerCard.map((card) => (
             <div key={card.id} className="w-fit">
-              <img src={card.img} alt="" className="w-[251px] rounded-full" />
+              <img
+                src={card.img}
+                alt=""
+                className="w-[251px] rounded-full border-[4px] border-BrowN"
+              />
               <div className="pt-3 text-center">
                 <h4 className="text-[16px] font-bold font-Poppins">
                   {card.name}
