@@ -62,16 +62,7 @@ const Card = () => {
           Pitch Your DAO
         </h4>
         <p className="text-black font-Poppins pb-5 font-medium">
-          Increase your DAO's visibility and influence by pitching at DAOfest
-          2024, a premier event that provides a global stage for Decentralized
-          Autonomous Organizations. Seize the opportunity to showcase your DAO's
-          innovations and societal impact, attracting attention from investors
-          and collaborators. This is not just a pitch—it's a chance to position
-          your DAO as a trailblazer in decentralized technologies and make a
-          lasting impact on the evolving landscape. Don't miss this unique
-          opportunity to captivate the decentralized community and shape the
-          future of decentralized coordination. Submit your pitch for DAOfest
-          2024 and propel your DAO to new heights.
+          Are you leading a groundbreaking DAO initiative or nurturing a transformative DAO idea to address real-world challenges? Seize this unparalleled opportunity to spotlight your project or idea, gaining valuable mentorship and resources for sustained success. Whether you assemble a dynamic team or present independently, showcasing your DAO at DAOfest 2024 offers more than recognition—it's a golden chance to establish your project as a trailblazer in decentralized technologies, leaving an enduring imprint on the evolving landscape with enticing prizes and invaluable mentorship support.
         </p>
         <Link
           target="_blank"
