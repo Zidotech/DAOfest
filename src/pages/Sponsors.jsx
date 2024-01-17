@@ -27,13 +27,13 @@ const Sponsors = () => {
           {SponsorCard.map((card) => (
             <div
               key={card.id}
-              className="w-fit flex flex-col justify-between  h-[250px] "
+              className="w-fit flex flex-col justify-between items-center  h-[250px] "
             >
               <Link to={card.link} target="_blank">
                 <img src={card.img} alt="" />
               </Link>
               <div className=" text-center">
-                <h4 className="text-[28px] font-bold font-Poppins">
+                <h4 className="sm:text-[28px] text-[20px] font-bold font-Poppins">
                   {card.name}
                 </h4>
               </div>

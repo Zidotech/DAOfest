@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Card = () => {
   return (
     <div className="section py-16 flex gap-x-5 gap-y-7 flex-wrap justify-around">
-      <div className="card flex flex-col gap-y-5 sm:w-[380px] w-full ">
+      <div className="card flex flex-col justify-between sm:w-[380px] w-full ">
         <h4 className="sm:text-[32px] text-[25px] font-Poppins font-bold text-black">
           Become A Sponsor
         </h4>
@@ -30,7 +30,7 @@ const Card = () => {
         </Link>
       </div>
 
-      <div className="card flex flex-col gap-y-5 sm:w-[380px] w-full">
+      <div className="card flex flex-col justify-between sm:w-[380px] w-full">
         <h4 className="sm:text-[32px] text-[25px] font-Poppins font-bold text-black">
           Become A Speaker
         </h4>
@@ -57,12 +57,20 @@ const Card = () => {
         </Link>
       </div>
 
-      <div className="card flex flex-col gap-y-5 sm:w-[380px] w-full ">
+      <div className="card flex flex-col  justify-between sm:w-[380px] w-full ">
         <h4 className="sm:text-[32px] text-[25px] font-Poppins font-bold text-black">
           Pitch Your DAO
         </h4>
         <p className="text-black font-Poppins pb-5 font-medium">
-          Are you leading a groundbreaking DAO initiative or nurturing a transformative DAO idea to address real-world challenges? Seize this unparalleled opportunity to spotlight your project or idea, gaining valuable mentorship and resources for sustained success. Whether you assemble a dynamic team or present independently, showcasing your DAO at DAOfest 2024 offers more than recognition—it's a golden chance to establish your project as a trailblazer in decentralized technologies, leaving an enduring imprint on the evolving landscape with enticing prizes and invaluable mentorship support.
+          Are you leading a groundbreaking DAO initiative or nurturing a
+          transformative DAO idea to address real-world challenges? Seize this
+          unparalleled opportunity to spotlight your project or idea, gaining
+          valuable mentorship and resources for sustained success. Whether you
+          assemble a dynamic team or present independently, showcasing your DAO
+          at DAOfest 2024 offers more than recognition—it's a golden chance to
+          establish your project as a trailblazer in decentralized technologies,
+          leaving an enduring imprint on the evolving landscape with enticing
+          prizes and invaluable mentorship support.
         </p>
         <Link
           target="_blank"
