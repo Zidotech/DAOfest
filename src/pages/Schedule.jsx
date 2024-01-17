@@ -14,7 +14,7 @@ const Schedule = () => {
       </h3>
 
       <div className="flex flex-col items-center justify-center ">
-        <div className="tab-buttons flex flex-wrap gap-x-7 justify-center">
+        <div className="tab-buttons flex flex-wrap sm:gap-x-7 justify-center mt-7">
           {SchTabs.map((tab) => (
             <button
               key={tab.id}

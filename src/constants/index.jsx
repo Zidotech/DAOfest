@@ -63,12 +63,12 @@ export const SponsorCard = [
     img: image.timb,
     link: "https://timbuktudao.xyz/",
   },
-  {
-    id: 2,
-    name: "UZX DAO",
-    img: image.uzx,
-    link: "",
-  },
+  // {
+  //   id: 2,
+  //   name: "UZX DAO",
+  //   img: image.uzx,
+  //   link: "",
+  // },
 ];
 
 export const SchTabs = [

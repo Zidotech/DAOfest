@@ -23,17 +23,17 @@ const Sponsors = () => {
       </div>
 
       <div className="section pt-16">
-        <div className="flex gap-28 flex-wrap justify-center">
+        <div className="flex gap-10 flex-wrap justify-center">
           {SponsorCard.map((card) => (
             <div
               key={card.id}
-              className="w-fit flex flex-col justify-between items-center  h-[250px] "
+              className="w-fit flex flex-col justify-between items-center  h-[155px] "
             >
               <Link to={card.link} target="_blank">
-                <img src={card.img} alt="" />
+                <img src={card.img} alt="" className="w-[100px]" />
               </Link>
               <div className=" text-center">
-                <h4 className="sm:text-[28px] text-[20px] font-bold font-Poppins">
+                <h4 className="sm:text-[22px] text-[20px] font-bold font-Poppins">
                   {card.name}
                 </h4>
               </div>
@@ -41,6 +41,10 @@ const Sponsors = () => {
           ))}
         </div>
       </div>
+
+      <h4 className="text-[23px] font-Lexend font-medium text-center mt-14 sm:px-0 px-3">
+        An Initiative of Timbuktu DAO and Africa Web3 Institute
+      </h4>
     </section>
   );
 };

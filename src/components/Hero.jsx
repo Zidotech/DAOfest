@@ -23,14 +23,14 @@ const Hero = () => {
 
             <div>
               <h4 className="text-[20px] font-Poppins font-normal text-black">
-                Unleashing Decentralized Coordination, <br /> Empowering
-                Tomorrow
+                Fueling the future: Unleashing Decentralized Coordination,{" "}
+                <br /> Empowering Tomorrow
               </h4>
             </div>
 
             <div>
               <h4 className="text-[17px] sm:text-[20px] font-Poppins font-medium text-black">
-                Don’t Miss!!!
+                Don’t Miss It!!!
               </h4>
               <div className="sm:w-fit w-max mt-5">
                 <CountdownTimer targetDate={targetDate} />
