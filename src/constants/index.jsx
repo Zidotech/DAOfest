@@ -34,31 +34,31 @@ export const OrganizerCard = [
     id: 2,
     name: "Feyisayo Onos",
     img: image.feyii,
-    designation: "President, Africa Blockchain Institute",
+    designation: "Marketing lead/crypto influencer",
   },
   {
     id: 3,
     name: "Adelabu AbduQuadri",
     img: image.abdul,
-    designation: "President, Africa Blockchain Institute",
+    designation: "Web3 Product Designer",
   },
   {
     id: 4,
     name: "Faith M. Roberts",
     img: image.faith,
-    designation: "President, Africa Blockchain Institute",
+    designation: "Web3 developer",
   },
   {
     id: 5,
     name: "Ayobami Abiola",
     img: image.ayobami,
-    designation: "President, Africa Blockchain Institute",
+    designation: "Crypto advocate",
   },
   {
     id: 6,
     name: "Asang Nehemiah",
     img: image.asang,
-    designation: "President, Africa Blockchain Institute",
+    designation: "Defi Researcher",
   },
 ];
 

@@ -2,7 +2,7 @@ import CountdownTimer from "../utils/CountdownTimer";
 
 const Hero = () => {
   const currentYear = new Date().getFullYear();
-  const targetDate = new Date(`${currentYear}-04-12T23:59:59`);
+  const targetDate = new Date(`${currentYear}-04-19T23:59:59`);
   return (
     <section className="hero__bg" id="home">
       <div className="absolute top-[10%] md:top-[11%]  w-full ">

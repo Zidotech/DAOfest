@@ -13,7 +13,7 @@ import euzx from "../assets/Euzx.png";
 import logo from "../assets/DAOfest_logo.png";
 import frisco from "../assets/frisco.jpg";
 import feyii from "../assets/feyii.jpg";
-import abdul from "../assets/abdul.jpg";
+import abdul from "../assets/bislab.jpg";
 import ayobami from "../assets/ayobami.jpg";
 import faith from "../assets/faith.jpg";
 import asang from "../assets/asang.jpg";
