@@ -5,7 +5,7 @@ const Speaker = () => {
   return (
     <section id="speaker" className="py-12">
       <div className="flex justify-end">
-        <div className=" sm:w-[60%] w-full flex justify-between sm:items-center items-end sm:px-0 px-3 sm:pr-5 ">
+        <div className=" sm:w-[60%] w-full flex justify-between items-center  sm:px-0 px-3 sm:pr-5 ">
           <h3 className="font-Poppins sm:text-[32px] text-[23px] font-bold ">
             {" "}
             Event Speakers

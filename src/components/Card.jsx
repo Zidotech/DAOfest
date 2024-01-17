@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Card = () => {
   return (
     <div className="section py-16 flex gap-x-5 gap-y-7 flex-wrap justify-around">
-      <div className="card flex flex-col justify-between sm:w-[380px] w-full ">
+      <div className="card flex flex-col justify-between gap-y-5 sm:w-[380px] w-full ">
         <h4 className="sm:text-[32px] text-[25px] font-Poppins font-bold text-black">
           Become A Sponsor
         </h4>
@@ -30,7 +30,7 @@ const Card = () => {
         </Link>
       </div>
 
-      <div className="card flex flex-col justify-between sm:w-[380px] w-full">
+      <div className="card flex flex-col justify-between gap-y-5 sm:w-[380px] w-full">
         <h4 className="sm:text-[32px] text-[25px] font-Poppins font-bold text-black">
           Become A Speaker
         </h4>
@@ -57,7 +57,7 @@ const Card = () => {
         </Link>
       </div>
 
-      <div className="card flex flex-col  justify-between sm:w-[380px] w-full ">
+      <div className="card flex flex-col  justify-between gap-y-5 sm:w-[380px] w-full ">
         <h4 className="sm:text-[32px] text-[25px] font-Poppins font-bold text-black">
           Pitch Your DAO
         </h4>

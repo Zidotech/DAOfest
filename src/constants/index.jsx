@@ -33,31 +33,26 @@ export const OrganizerCard = [
     id: 2,
     name: "Feyisayo Onos",
     img: image.feyii,
-    designation: "President, Africa Blockchain Institute",
   },
   {
     id: 3,
     name: "Adelabu AbduQuadri",
     img: image.abdul,
-    designation: "President, Africa Blockchain Institute",
   },
   {
     id: 4,
     name: "Faith M. Roberts",
     img: image.faith,
-    designation: "President, Africa Blockchain Institute",
   },
   {
     id: 5,
     name: "Ayobami Abiola",
     img: image.ayobami,
-    designation: "President, Africa Blockchain Institute",
   },
   {
     id: 6,
     name: "Asang Nehemiah",
     img: image.asang,
-    designation: "President, Africa Blockchain Institute",
   },
 ];
 
@@ -79,7 +74,7 @@ export const SponsorCard = [
 export const SchTabs = [
   {
     id: "1",
-    date: "12 April 2024",
+    date: "19 April 2024",
     content: [
       {
         id: 1,
@@ -113,7 +108,7 @@ export const SchTabs = [
   },
   {
     id: "2",
-    date: "13 April 2024",
+    date: "20 April 2024",
     content: [
       {
         id: 5,
