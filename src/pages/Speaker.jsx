@@ -17,7 +17,7 @@ const Speaker = () => {
             }
             className="font-bold text-[16px] font-Poppins text-with-colored-underline "
           >
-            Apply as Speaker
+            Call to Participation
           </Link>
         </div>
       </div>

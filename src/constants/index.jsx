@@ -15,12 +15,6 @@ export const SpeakerCard = [
     img: image.feyii,
     designation: "Crypto Influencer",
   },
-  {
-    id: 3,
-    name: "John Doe",
-    img: image.speaker,
-    designation: "President, Africa Blockchain Institute",
-  },
 ];
 
 export const OrganizerCard = [
