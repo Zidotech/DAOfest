@@ -36,9 +36,11 @@ const Footer = () => {
             <p className="mb-3 text-sm font-bold">Socials</p>
 
             <div className="flex gap-7 pt-4">
-              {/* <img src={image.discord} alt="" className="w-[34px]" />
+              {/* <img src={image.discord} alt="" className="w-[34px]" /> */}
 
-              <img src={image.telegram} alt="" className="w-[34px]" /> */}
+               <Link>
+<img src={image.telegram} alt="" className="w-[34px]" /> 
+</Link>
 
               <Link to={"https://x.com/DAOfest?s=20"} target="_blank">
                 <img src={image.twitter} alt="" className="w-[34px]" />
