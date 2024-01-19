@@ -38,7 +38,7 @@ const Footer = () => {
             <div className="flex gap-7 pt-4">
               {/* <img src={image.discord} alt="" className="w-[34px]" /> */}
 
-               <Link>
+               <Link to={"https://t.me/+-xCewSaP-E8wYjU0"} target="_blank">
 <img src={image.telegram} alt="" className="w-[34px]" /> 
 </Link>
 
