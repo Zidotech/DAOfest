@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full top-0 left-0 z-20   ${
-        active ? " bg-black" : ""
+        active ? " bg-black" : "bg-white"
       }`}
     >
       <div className="section flex justify-between items-center sm:py-5 py-4">
