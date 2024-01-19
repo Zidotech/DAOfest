@@ -56,7 +56,7 @@ const Navbar = () => {
 
         <div className="sm:hidden flex">
           <GiHamburgerMenu
-            color="#fff"
+            
             fontSize={27}
             onClick={() => setToggleMenu(true)}
           />
