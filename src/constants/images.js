@@ -7,6 +7,7 @@ import timb from "../assets/11.png";
 import discord from "../assets/discord-communication-interaction-message-network-svgrepo-com.svg";
 import telegram from "../assets/telegram-communication-chat-interaction-network-connection-svgrepo-com.svg";
 import twitter from "../assets/twitter-1-svgrepo-com.svg";
+import facebook from "../assets/facebook-1-svgrepo-com.svg";
 import eclipse from "../assets/Ellipse 51.png";
 import etimb from "../assets/Etimb.png";
 import euzx from "../assets/Euzx.png";
@@ -28,6 +29,7 @@ export default {
   discord,
   twitter,
   telegram,
+  facebook,
   eclipse,
   etimb,
   euzx,

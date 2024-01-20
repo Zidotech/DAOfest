@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full top-0 left-0 z-20   ${
-        active ? " bg-black" : "bg-white"
+        active ? " bg-Nav" : "bg-Nav"
       }`}
     >
       <div className="section flex justify-between items-center sm:py-5 py-4">
@@ -28,7 +28,9 @@ const Navbar = () => {
           <img src={image.logo} alt="" className="" />
         </div>
 
-        <div className={`sm:flex hidden ${active ? "text-white" : ""}`}>
+        <div
+          className={`sm:flex hidden ${active ? "text-black" : "text-black"}`}
+        >
           <ul className="flex gap-x-8">
             <li className="text-[16px] font-medium font-Poppins">
               <a href="#home">Home</a>
@@ -56,9 +58,9 @@ const Navbar = () => {
 
         <div className="sm:hidden flex">
           <GiHamburgerMenu
-            
-            fontSize={27}
+            fontSize={32}
             onClick={() => setToggleMenu(true)}
+            className={`${active ? "text-white" : "text-black"}`}
           />
           {toggleMenu && (
             <div

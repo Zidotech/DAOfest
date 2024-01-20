@@ -5,7 +5,7 @@ const Hero = () => {
   const targetDate = new Date(`${currentYear}-04-19T23:59:59`);
   return (
     <section className="hero__bg" id="home">
-      <div className="absolute top-[10%] md:top-[11%]  w-full ">
+      <div className="absolute top-[13%] md:top-[18%]  w-full ">
         <div className="flex justify-between items-center section pt-10 ">
           <div className="sm:w-[60%] w-full mx-auto pt-4  flex flex-col gap-y-5 text-center justify-center  items-center">
             <div>
