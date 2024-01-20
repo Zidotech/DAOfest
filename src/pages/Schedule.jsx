@@ -52,7 +52,7 @@ const Schedule = () => {
                       cont.id === 7 ? " bg-Light7  sm:w-[70%]" : ""
                     }${cont.id === 8 ? " bg-Light8  sm:w-[70%]" : ""}`}
                   >
-                    <h4>{cont.time}</h4>
+                    {/* <h4>{cont.time}</h4>
                     <img src={cont.img} alt="" />
                     <div className=" w-[50%] sm:w-fit">
                       <h4 className="text-[16px] font-medium font-Poppins">
@@ -61,7 +61,8 @@ const Schedule = () => {
                       <h4 className="text-[14px] font-medium font-Poppins">
                         {cont.name}
                       </h4>
-                    </div>
+                    </div> */}
+                    <h4>Coming Soon...</h4>
                   </div>
                 </div>
               ))}
