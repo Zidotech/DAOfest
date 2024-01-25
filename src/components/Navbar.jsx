@@ -117,7 +117,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="#contact"
+                    href="#schedule"
                     onClick={() => setToggleMenu(false)}
                     className="text-[18px] font-Poppins"
                   >
