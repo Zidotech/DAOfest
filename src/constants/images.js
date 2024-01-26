@@ -18,6 +18,7 @@ import abdul from "../assets/bislab.jpg";
 import ayobami from "../assets/ayobami.jpg";
 import faith from "../assets/faith.jpg";
 import asang from "../assets/asang.jpg";
+import hand from "../assets/tdesign_gesture-click.png";
 
 export default {
   megaphone,
@@ -40,4 +41,5 @@ export default {
   ayobami,
   faith,
   asang,
+  hand,
 };

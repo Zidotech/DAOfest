@@ -102,3 +102,11 @@ footer {
   font-weight: 700;
   color: black;
 }
+
+.shadow-right {
+  box-shadow: 4px 0 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-bottom {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}

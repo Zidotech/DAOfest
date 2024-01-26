@@ -19,6 +19,9 @@ export default {
         Light7: "hsla(170, 43%, 86%, 1)",
         Light8: "hsla(0, 0%, 85%, 1)",
         Nav: "hsla(19, 55%, 88%, 1)",
+        Shadow: "hsla(24, 77%, 57%, 1)",
+        Shadow2: "hsla(0, 0%, 100%, 1)",
+        Shadow3: "hsla(0, 0%, 0%, 1)",
       },
       fontFamily: {
         Lexend: ["Lexend", "sans - serif"],
