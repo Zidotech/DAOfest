@@ -7,6 +7,8 @@ export default {
         Primary: "hsla(240, 100%, 50%, 1)",
         Green: "hsla(105, 100%, 50%, 1)",
         Brown: "hsla(19, 93%, 48%, 1)",
+        BrowN: "hsl(19, 93%, 48%)",
+        Blue: "hsl(240, 100%, 50%)",
         White: " hsla(0, 0%, 100%, 1)",
         Light1: "hsla(168, 100%, 36%, 0.15)",
         Light2: "hsla(197, 92%, 68%, 0.15)",
@@ -17,6 +19,9 @@ export default {
         Light7: "hsla(170, 43%, 86%, 1)",
         Light8: "hsla(0, 0%, 85%, 1)",
         Nav: "hsla(19, 55%, 88%, 1)",
+        Shadow: "hsla(24, 77%, 57%, 1)",
+        Shadow2: "hsla(0, 0%, 100%, 1)",
+        Shadow3: "hsla(0, 0%, 0%, 1)",
       },
       fontFamily: {
         Lexend: ["Lexend", "sans - serif"],

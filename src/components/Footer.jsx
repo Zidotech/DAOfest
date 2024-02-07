@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="py-8">
       <div className="section flex  justify-between sm:flex-row flex-col gap-y-5">
         <div className="">
-          <img src={image.logo} alt="" className="" />
+          <img src={image.logo} alt="" className="w-[100px]" />
         </div>
 
         <div className="flex justify-between sm:w-[40%]">
@@ -36,12 +36,16 @@ const Footer = () => {
             <p className="mb-3 text-sm font-bold">Socials</p>
 
             <div className="flex gap-7 pt-4">
-              {/* <img src={image.discord} alt="" className="w-[34px]" />
-
-              <img src={image.telegram} alt="" className="w-[34px]" /> */}
+              <Link to={"https://t.me/+-xCewSaP-E8wYjU0"} target="_blank">
+                <img src={image.telegram} alt="" className="w-[34px]" />
+              </Link>
 
               <Link to={"https://x.com/DAOfest?s=20"} target="_blank">
                 <img src={image.twitter} alt="" className="w-[34px]" />
+              </Link>
+
+              <Link to={"https://t.me/+-xCewSaP-E8wYjU0"} target="_blank">
+                <img src={image.facebook} alt="" className="w-[34px]" />
               </Link>
             </div>
           </div>

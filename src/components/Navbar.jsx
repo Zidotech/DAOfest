@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full top-0 left-0 z-20   ${
-        active ? " bg-black" : ""
+        active ? " bg-Nav" : "bg-Nav"
       }`}
     >
       <div className="section flex justify-between items-center sm:py-5 py-4">
@@ -28,7 +28,9 @@ const Navbar = () => {
           <img src={image.logo} alt="" className="" />
         </div>
 
-        <div className={`sm:flex hidden ${active ? "text-white" : ""}`}>
+        <div
+          className={`sm:flex hidden ${active ? "text-black" : "text-black"}`}
+        >
           <ul className="flex gap-x-8">
             <li className="text-[16px] font-medium font-Poppins">
               <a href="#home">Home</a>
@@ -56,15 +58,15 @@ const Navbar = () => {
 
         <div className="sm:hidden flex">
           <GiHamburgerMenu
-            color="#fff"
-            fontSize={27}
+            fontSize={32}
             onClick={() => setToggleMenu(true)}
+            className={`${active ? "text-white" : "text-black"}`}
           />
           {toggleMenu && (
             <div
               className={`${
                 toggleMenu ? "block" : "hidden"
-              } bg-Nav z-50 absolute top-0 left-0 right-0 w-full h-[46vh] p-3`}
+              } bg-Nav z-50 absolute top-0 left-0 right-0 w-full h-[45vh] p-3`}
             >
               <div className="flex justify-between items-center">
                 <div className="">
@@ -115,7 +117,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="#contact"
+                    href="#schedule"
                     onClick={() => setToggleMenu(false)}
                     className="text-[18px] font-Poppins"
                   >
@@ -124,9 +126,11 @@ const Navbar = () => {
                 </li>
               </ul>
 
-              <button className=" mt-6 py-[14px] px-[42px] bg-Primary text-[16px] font-Poppins rounded-2xl text-White">
-                Get In Touch
-              </button>
+              <Link target="_blank" to={"mailto:info@daofest.xyz"}>
+                <button className=" mt-6 py-[14px] px-[42px] bg-Primary text-[16px] font-Poppins rounded-2xl text-White">
+                  Get In Touch
+                </button>{" "}
+              </Link>
             </div>
           )}
         </div>

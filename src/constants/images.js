@@ -7,12 +7,18 @@ import timb from "../assets/11.png";
 import discord from "../assets/discord-communication-interaction-message-network-svgrepo-com.svg";
 import telegram from "../assets/telegram-communication-chat-interaction-network-connection-svgrepo-com.svg";
 import twitter from "../assets/twitter-1-svgrepo-com.svg";
+import facebook from "../assets/facebook-1-svgrepo-com.svg";
 import eclipse from "../assets/Ellipse 51.png";
 import etimb from "../assets/Etimb.png";
 import euzx from "../assets/Euzx.png";
 import logo from "../assets/DAOfest_logo.png";
 import frisco from "../assets/frisco.jpg";
 import feyii from "../assets/feyii.jpg";
+import abdul from "../assets/bislab.jpg";
+import ayobami from "../assets/ayobami.jpg";
+import faith from "../assets/faith.jpg";
+import asang from "../assets/asang.jpg";
+import hand from "../assets/tdesign_gesture-click.png";
 
 export default {
   megaphone,
@@ -24,10 +30,16 @@ export default {
   discord,
   twitter,
   telegram,
+  facebook,
   eclipse,
   etimb,
   euzx,
   logo,
   frisco,
   feyii,
+  abdul,
+  ayobami,
+  faith,
+  asang,
+  hand,
 };

@@ -13,64 +13,40 @@ export const SpeakerCard = [
     id: 2,
     name: "Feyisayo Onos",
     img: image.feyii,
-    designation: "President, Africa Blockchain Institute",
-  },
-  {
-    id: 3,
-    name: "John Doe",
-    img: image.speaker,
-    designation: "President, Africa Blockchain Institute",
+    designation: "Crypto Influencer",
   },
 ];
 
 export const OrganizerCard = [
   {
     id: 1,
-    name: "John Doe",
-    img: image.organizer,
-    designation: "President, Africa Blockchain Institute",
+    name: "Frisco D’Aconia",
+    img: image.frisco,
   },
   {
     id: 2,
-    name: "John Doe",
-    img: image.organizer,
-    designation: "President, Africa Blockchain Institute",
+    name: "Feyisayo Onos",
+    img: image.feyii,
   },
   {
     id: 3,
-    name: "John Doe",
-    img: image.organizer,
-    designation: "President, Africa Blockchain Institute",
+    name: "Adelabu AbduQuadri",
+    img: image.abdul,
   },
   {
     id: 4,
-    name: "John Doe",
-    img: image.organizer,
-    designation: "President, Africa Blockchain Institute",
+    name: "Faith M. Roberts",
+    img: image.faith,
   },
   {
     id: 5,
-    name: "John Doe",
-    img: image.organizer,
-    designation: "President, Africa Blockchain Institute",
+    name: "Ayobami Abiola",
+    img: image.ayobami,
   },
   {
     id: 6,
-    name: "John Doe",
-    img: image.organizer,
-    designation: "President, Africa Blockchain Institute",
-  },
-  {
-    id: 7,
-    name: "John Doe",
-    img: image.organizer,
-    designation: "President, Africa Blockchain Institute",
-  },
-  {
-    id: 8,
-    name: "John Doe",
-    img: image.organizer,
-    designation: "President, Africa Blockchain Institute",
+    name: "Asang Nehemiah",
+    img: image.asang,
   },
 ];
 
@@ -81,18 +57,18 @@ export const SponsorCard = [
     img: image.timb,
     link: "https://timbuktudao.xyz/",
   },
-  {
-    id: 2,
-    name: "UZX DAO",
-    img: image.uzx,
-    link: "",
-  },
+  // {
+  //   id: 2,
+  //   name: "UZX DAO",
+  //   img: image.uzx,
+  //   link: "",
+  // },
 ];
 
 export const SchTabs = [
   {
     id: "1",
-    date: "12 April 2024",
+    date: "19 April 2024",
     content: [
       {
         id: 1,
@@ -126,7 +102,7 @@ export const SchTabs = [
   },
   {
     id: "2",
-    date: "13 April 2024",
+    date: "20 April 2024",
     content: [
       {
         id: 5,

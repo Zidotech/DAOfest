@@ -8,10 +8,14 @@ const Organizer = () => {
       </div>
 
       <div className="section pt-16">
-        <div className="flex gap-16 flex-wrap justify-center">
+        <div className="flex sm:gap-16 gap-5 flex-wrap justify-center">
           {OrganizerCard.map((card) => (
-            <div key={card.id} className="w-fit">
-              <img src={card.img} alt="" />
+            <div key={card.id} className="sm:w-fit w-[160px]">
+              <img
+                src={card.img}
+                alt=""
+                className="sm:w-[251px] w-full rounded-full border-[4px] border-Blue"
+              />
               <div className="pt-3 text-center">
                 <h4 className="text-[16px] font-bold font-Poppins">
                   {card.name}

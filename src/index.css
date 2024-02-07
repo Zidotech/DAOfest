@@ -17,7 +17,7 @@ body {
 
 .hero__bg {
   position: relative;
-  height: 100vh; /* Make the container take the full viewport height */
+  height: 90vh; /* Make the container take the full viewport height */
   background-image: url("./assets/hero_bg.png");
   background-size: cover;
   background-position: bottom;
@@ -31,7 +31,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .hero__bg {
-    height: 85vh;
+    height: 90vh;
   }
   .tab-buttons button {
     font-size: 5px;
@@ -101,4 +101,12 @@ footer {
   border-color: hsla(240, 100%, 50%, 1);
   font-weight: 700;
   color: black;
+}
+
+.shadow-right {
+  box-shadow: 4px 0 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-bottom {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
