@@ -32,7 +32,7 @@ const Schedule = () => {
               key={tab.id}
               className={`${
                 activeTab === tab.id ? "active" : "inactive"
-              }  sm:w-[90%] w-[95%] mx-auto`}
+              }  sm:w-[90%] w-[98%] mx-auto`}
             >
               {tab.content.map((cont, index) => (
                 <div
@@ -43,14 +43,16 @@ const Schedule = () => {
                 >
                   <div
                     className={`flex sm:gap-x-7 gap-x-2 items-center  justify-between py-4 sm:px-6 px-3 rounded-xl mt-5 ${
-                      cont.id === 1 ? " bg-Light1  sm:w-[80%] " : ""
-                    } ${cont.id === 2 ? " bg-Light2  sm:w-[80%]" : ""} ${
-                      cont.id === 3 ? " bg-Light3  sm:w-[80%]" : ""
-                    }${cont.id === 4 ? " bg-Light4  sm:w-[65%] w-[85%]" : ""}${
-                      cont.id === 5 ? " bg-Light5  sm:w-[70%] w-[95%]" : ""
-                    } ${cont.id === 6 ? " bg-Light6  sm:w-[75%]" : ""} ${
-                      cont.id === 7 ? " bg-Light7  sm:w-[70%]" : ""
-                    }${cont.id === 8 ? " bg-Light8  sm:w-[70%]" : ""}`}
+                      cont.id === 1 ? " bg-Light1  sm:w-[80%] w-[95%]" : ""
+                    } ${
+                      cont.id === 2 ? " bg-Light2  sm:w-[80%] w-[95%]" : ""
+                    } ${cont.id === 3 ? " bg-Light3  sm:w-[80%] w-[95%]" : ""}${
+                      cont.id === 4 ? " bg-Light4  sm:w-[65%] w-[85%]" : ""
+                    }${cont.id === 5 ? " bg-Light5  sm:w-[70%] w-[95%]" : ""} ${
+                      cont.id === 6 ? " bg-Light6  sm:w-[75%] w-[95%]" : ""
+                    } ${cont.id === 7 ? " bg-Light7  sm:w-[70%] w-[95%]" : ""}${
+                      cont.id === 8 ? " bg-Light8  sm:w-[70%] w-[95%]" : ""
+                    }`}
                   >
                     {/* <h4>{cont.time}</h4>
                     <img src={cont.img} alt="" />

@@ -93,8 +93,8 @@ const Card = () => {
 
       <div className="flex justify-center">
         <Link
-          target="_blank"
-          to={"https://app.deform.cc/form/0a13adb9-e2e9-47f9-8230-e258224d857b"}
+          // target="_blank"
+          // to={"https://app.deform.cc/form/0a13adb9-e2e9-47f9-8230-e258224d857b"}
           className=" flex items-center px-9 py-6 gap-x-3 border-2 border-Shadow3 bg-Shadow2 shadow-lg shadow-Shadow"
         >
           <span className="font-medium sm:text-[25px] text-[20px] font-Poppins">
