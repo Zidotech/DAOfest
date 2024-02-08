@@ -4,22 +4,11 @@ import { SponsorCard } from "../constants";
 const Sponsors = () => {
   return (
     <section id="speaker" className="py-12">
-      <div className="flex justify-end bg-white">
-        <div className=" sm:w-[60%] w-full flex justify-between items-center sm:px-0 px-3 sm:pr-5 ">
-          <h3 className="font-Poppins sm:text-[32px] text-[23px] font-bold ">
-            {" "}
-            Our sponsors
-          </h3>
-          <Link
-            target="_blank"
-            to={
-              "https://app.deform.cc/form/6ab6ea4c-1866-4ff1-b311-b3dc70697af3"
-            }
-            className="font-bold text-[16px] font-Poppins text-with-colored-underline "
-          >
-            Apply as Sponsor
-          </Link>
-        </div>
+      <div className="text-center py-2 bg-white">
+        <h3 className="font-Poppins sm:text-[32px] text-[23px] font-bold ">
+          {" "}
+          Our sponsors
+        </h3>
       </div>
 
       <div className="section pt-16">

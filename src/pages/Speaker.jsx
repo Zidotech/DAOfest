@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { SpeakerCard } from "../constants";
 
 const Speaker = () => {
@@ -25,6 +26,26 @@ const Speaker = () => {
                 <p className="mt-1 text-[14px] font-Poppins font-medium">
                   {card.designation}
                 </p>
+              </div>
+              <div className="flex gap-x-5  w-full justify-center py-3">
+                <Link target="_blank" to={card.linkedin}>
+                  <img
+                    src={card.linkedin_icon}
+                    alt="Linkedin"
+                    className={`w-[30px] ${
+                      card.linkedin_icon === undefined ? "hidden" : ""
+                    }`}
+                  />
+                </Link>
+                <Link target="_blank" to={card.x}>
+                  <img
+                    src={card.x_icon}
+                    alt="X"
+                    className={`w-[30px] ${
+                      card.x_icon === undefined ? "hidden" : ""
+                    }`}
+                  />{" "}
+                </Link>
               </div>
             </div>
           ))}
