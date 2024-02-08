@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="py-8">
       <div className="section flex  justify-between sm:flex-row flex-col gap-y-5">
         <div className="">
-          <img src={image.logo} alt="" className="w-[100px]" />
+          <img src={image.logo} alt="" className="" />
         </div>
 
         <div className="flex justify-between sm:w-[40%]">
