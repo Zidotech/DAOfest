@@ -29,7 +29,7 @@ const Hero = () => {
 
             <div>
               <h4 className="text-[17px] sm:text-[20px] font-Poppins font-medium text-black">
-                Don’t Miss It!!!
+                Don’t Miss Out!!!
               </h4>
               <div className="sm:w-fit w-max mt-5">
                 <CountdownTimer targetDate={targetDate} />

@@ -25,7 +25,7 @@ const Navbar = () => {
     >
       <div className="section flex justify-between items-center sm:py-5 py-4">
         <div className="">
-          <img src={image.logo} alt="" className="" />
+          <img src={image.logo} alt="" className="sm:w-[69px] w-[50px]" />
         </div>
 
         <div
