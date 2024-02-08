@@ -18,7 +18,7 @@ export const SpeakerCard = [
     id: 2,
     name: "Feyisayo Onos",
     img: image.feyii,
-    designation: "Crypto Influencer",
+    designation: "Crypto Influencer & DAO Specialist",
     x: "https://x.com/custommade_ng/",
     x_icon: image.twitter,
   },

@@ -12,7 +12,7 @@ import facebook from "../assets/facebook-1-svgrepo-com.svg";
 import eclipse from "../assets/Ellipse 51.png";
 import etimb from "../assets/Etimb.png";
 import euzx from "../assets/Euzx.png";
-import logo from "../assets/daofestlogo.png";
+import logo from "../assets/daofestlogo.svg";
 import frisco from "../assets/frisco.jpg";
 import feyii from "../assets/feyii.jpg";
 import abdul from "../assets/bislab.jpg";
