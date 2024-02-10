@@ -21,6 +21,7 @@ import faith from "../assets/faith.jpg";
 import asang from "../assets/asang.jpg";
 import peth from "../assets/peth.jpg";
 import nick from "../assets/nick.jpg";
+import daniel from "../assets/daniel.jpg";
 import hand from "../assets/tdesign_gesture-click.png";
 
 export default {
@@ -47,5 +48,6 @@ export default {
   asang,
   peth,
   nick,
+  daniel,
   hand,
 };
