@@ -40,6 +40,14 @@ export const SpeakerCard = [
     x: "https://twitter.com/petheth ",
     x_icon: image.twitter,
   },
+  {
+    id: 5,
+    name: "Daniel Anomfueme",
+    img: image.daniel,
+    designation: "Vita DAO & DeSci Africa",
+    x: "https://x.com/lifeofdanel?t=t6l9iMrz4oqRpvl0LTVctQ&s=09",
+    x_icon: image.twitter,
+  },
 ];
 
 export const OrganizerCard = [
