@@ -54,7 +54,7 @@ const Footer = () => {
 
       <div className="mt-5">
         <div className="border-t pt-5 px-4">
-          <p className="">Copyright © 2023 DQ. All Rights Reserved.</p>
+          <p className="">Copyright © 2023 TD. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
