@@ -11,10 +11,10 @@ const About = () => {
           <img src={image.about} alt="" />
 
           <p className="sm:w-[50%] w-full font-Poppins font-medium">
-            DAOFest 2024 is a premier gathering of DAOists, Web3 enthusiasts,
+            DAOfest 2024 is a premier gathering of DAOists, Web3 enthusiasts,
             NGOs, communities, and corporate bodies from across the globe,
             converging in Africa to explore, intensify, and shape decentralized
-            coordination. As the go-to DAO event of the year, DAOFest aims to
+            coordination. As the go-to DAO event of the year, DAOfest aims to
             celebrate the potential of Decentralized Autonomous Organizations
             (DAOs) and pave the way for increased participation in this
             revolutionary space. The goal is to empower communities and
