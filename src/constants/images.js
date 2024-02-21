@@ -23,6 +23,9 @@ import peth from "../assets/peth.jpg";
 import nick from "../assets/nick.jpg";
 import daniel from "../assets/daniel.jpg";
 import hand from "../assets/tdesign_gesture-click.png";
+import cryptopolitan from "../assets/cryptopolitan.png";
+import coinpedia from "../assets/coinpedia.png";
+import coinrepublic from "../assets/TCR_logo.png";
 
 export default {
   megaphone,
@@ -50,4 +53,7 @@ export default {
   nick,
   daniel,
   hand,
+  coinpedia,
+  coinrepublic,
+  cryptopolitan,
 };
