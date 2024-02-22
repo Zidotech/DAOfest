@@ -98,10 +98,31 @@ export const SponsorCard = [
   // },
 ];
 
+export const PartnerCard = [
+  {
+    id: 1,
+    name: "Cryptopolitan",
+    img: image.cryptopolitan,
+    link: "https://www.cryptopolitan.com/",
+  },
+  {
+    id: 2,
+    name: "The Coin Republic",
+    img: image.coinrepublic,
+    link: "https://www.thecoinrepublic.com/",
+  },
+  {
+    id: 3,
+    name: "Coinpedia",
+    img: image.coinpedia,
+    link: "https://coinpedia.org/",
+  },
+];
+
 export const SchTabs = [
   {
     id: "1",
-    date: "19 April 2024",
+    date: "31 May 2024",
     content: [
       {
         id: 1,
@@ -135,7 +156,7 @@ export const SchTabs = [
   },
   {
     id: "2",
-    date: "20 April 2024",
+    date: "1 June 2024",
     content: [
       {
         id: 5,

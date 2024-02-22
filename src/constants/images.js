@@ -6,7 +6,7 @@ import uzx from "../assets/image 1.png";
 import timb from "../assets/11.png";
 import discord from "../assets/discord-communication-interaction-message-network-svgrepo-com.svg";
 import telegram from "../assets/telegram-communication-chat-interaction-network-connection-svgrepo-com.svg";
-import twitter from "../assets/twitter-1-svgrepo-com.svg";
+import twitter from "../assets/x.png";
 import linkdin from "../assets/linkedin-1-svgrepo-com.svg";
 import facebook from "../assets/facebook-1-svgrepo-com.svg";
 import eclipse from "../assets/Ellipse 51.png";
@@ -23,6 +23,9 @@ import peth from "../assets/peth.jpg";
 import nick from "../assets/nick.jpg";
 import daniel from "../assets/daniel.jpg";
 import hand from "../assets/tdesign_gesture-click.png";
+import cryptopolitan from "../assets/cryptopolitan.png";
+import coinpedia from "../assets/coinpedia.png";
+import coinrepublic from "../assets/TCR_logo.png";
 
 export default {
   megaphone,
@@ -50,4 +53,7 @@ export default {
   nick,
   daniel,
   hand,
+  coinpedia,
+  coinrepublic,
+  cryptopolitan,
 };

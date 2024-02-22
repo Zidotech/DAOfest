@@ -1,5 +1,12 @@
 import { Card, Footer, Hero, MegaPhone, Navbar } from "./components";
-import { About, Organizer, Schedule, Speaker, Sponsors } from "./pages";
+import {
+  About,
+  Organizer,
+  Partners,
+  Schedule,
+  Speaker,
+  Sponsors,
+} from "./pages";
 
 function App() {
   return (
@@ -13,6 +20,7 @@ function App() {
       <Organizer />
       <Schedule />
       <Sponsors />
+      <Partners />
       <Footer />
     </div>
   );
