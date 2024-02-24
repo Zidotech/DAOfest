@@ -48,6 +48,16 @@ export const SpeakerCard = [
     x: "https://x.com/lifeofdanel?t=t6l9iMrz4oqRpvl0LTVctQ&s=09",
     x_icon: image.twitter,
   },
+  {
+    id: 6,
+    name: "Sharry",
+    img: image.sharon,
+    designation: "Product Manager, Kleros",
+    x: "https://www.twitter.com/sharry_gold",
+    x_icon: image.twitter,
+    linkedin: "https://www.linkedin.com/in/sharonakpunne/",
+    linkedin_icon: image.linkdin,
+  },
 ];
 
 export const OrganizerCard = [
