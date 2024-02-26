@@ -23,7 +23,8 @@ const Hero = () => {
 
             <div>
               <h4 className="text-[20px] font-Poppins font-normal text-black">
-                Fueling the future: Unleashing Decentralized Coordination.
+                Fuelling the future: Unleashing the Power of Decentralized
+                Coordination.
               </h4>
             </div>
 

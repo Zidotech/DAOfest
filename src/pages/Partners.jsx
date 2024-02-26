@@ -12,14 +12,18 @@ const Partners = () => {
       </div>
 
       <div className="section pt-16">
-        <div className="flex sm:gap-10 gap-4 flex-wrap justify-center">
+        <div className="flex sm:gap-x-10 gap-5 gap-y-8 sm:gap-y-0 flex-wrap justify-center">
           {PartnerCard.map((card) => (
             <div
               key={card.id}
               className="w-fit flex flex-col justify-between items-center  sm:h-[125px] "
             >
               <Link to={card.link} target="_blank">
-                <img src={card.img} alt="" className="w-[150px] sm:w-[200px]" />
+                <img
+                  src={card.img}
+                  alt={card.alt}
+                  className="w-[150px] sm:w-[200px]"
+                />
               </Link>
               {/* <div className=" text-center">
                 <h4 className="sm:text-[22px] text-[20px] font-bold font-Poppins">

@@ -48,6 +48,16 @@ export const SpeakerCard = [
     x: "https://x.com/lifeofdanel?t=t6l9iMrz4oqRpvl0LTVctQ&s=09",
     x_icon: image.twitter,
   },
+  {
+    id: 6,
+    name: "Sharry",
+    img: image.sharon,
+    designation: "Product Manager, Kleros",
+    x: "https://www.twitter.com/sharry_gold",
+    x_icon: image.twitter,
+    linkedin: "https://www.linkedin.com/in/sharonakpunne/",
+    linkedin_icon: image.linkdin,
+  },
 ];
 
 export const OrganizerCard = [
@@ -103,19 +113,29 @@ export const PartnerCard = [
     id: 1,
     name: "Cryptopolitan",
     img: image.cryptopolitan,
+    alt: "cryptopolitan",
     link: "https://www.cryptopolitan.com/",
   },
   {
     id: 2,
     name: "The Coin Republic",
     img: image.coinrepublic,
+    alt: "coinrepublic",
     link: "https://www.thecoinrepublic.com/",
   },
   {
     id: 3,
     name: "Coinpedia",
     img: image.coinpedia,
+    alt: "coinpedia",
     link: "https://coinpedia.org/",
+  },
+  {
+    id: 4,
+    name: "Bitcoin Insider",
+    img: image.bitcionInsider,
+    alt: "bitcionInsider",
+    link: "https://www.bitcoininsider.org/",
   },
 ];
 
