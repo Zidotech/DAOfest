@@ -113,19 +113,29 @@ export const PartnerCard = [
     id: 1,
     name: "Cryptopolitan",
     img: image.cryptopolitan,
+    alt: "cryptopolitan",
     link: "https://www.cryptopolitan.com/",
   },
   {
     id: 2,
     name: "The Coin Republic",
     img: image.coinrepublic,
+    alt: "coinrepublic",
     link: "https://www.thecoinrepublic.com/",
   },
   {
     id: 3,
     name: "Coinpedia",
     img: image.coinpedia,
+    alt: "coinpedia",
     link: "https://coinpedia.org/",
+  },
+  {
+    id: 4,
+    name: "Bitcoin Insider",
+    img: image.bitcionInsider,
+    alt: "bitcionInsider",
+    link: "https://www.bitcoininsider.org/",
   },
 ];
 
