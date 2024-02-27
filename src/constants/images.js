@@ -28,6 +28,9 @@ import cryptopolitan from "../assets/cryptopolitan.png";
 import coinpedia from "../assets/coinpedia.png";
 import coinrepublic from "../assets/TCR_logo.png";
 import bitcionInsider from "../assets/bitcoininsider-logo-vertical.svg";
+import coinscapture from "../assets/Coinscapture-logo.svg";
+import deborah from "../assets/deborah.jpg";
+import CNETv from "../assets/coinnewsextratv.png";
 
 export default {
   megaphone,
@@ -55,9 +58,14 @@ export default {
   sharon,
   nick,
   daniel,
+  deborah,
   hand,
+
+  // media partner
   coinpedia,
   coinrepublic,
   cryptopolitan,
   bitcionInsider,
+  coinscapture,
+  CNETv,
 };
