@@ -58,6 +58,17 @@ export const SpeakerCard = [
     linkedin: "https://www.linkedin.com/in/sharonakpunne/",
     linkedin_icon: image.linkdin,
   },
+  {
+    id: 7,
+    name: "Deborah Enyone Oni",
+    img: image.deborah,
+    designation: "Managing Partner, Hilton Top Solicitors",
+    x: "https://x.com/Deborahoni04?t=IYqu4nGTTgupBp-smRrLAg&s=09 ",
+    x_icon: image.twitter,
+    linkedin:
+      "https://www.linkedin.com/in/deborah-enyone-oni-llb-bl-llm-nim-948638169?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin_icon: image.linkdin,
+  },
 ];
 
 export const OrganizerCard = [
@@ -136,6 +147,20 @@ export const PartnerCard = [
     img: image.bitcionInsider,
     alt: "bitcionInsider",
     link: "https://www.bitcoininsider.org/",
+  },
+  {
+    id: 5,
+    name: "Coins Capture",
+    img: image.coinscapture,
+    alt: "coinscapture",
+    link: "https://coinscapture.com/",
+  },
+  {
+    id: 6,
+    name: "CoinsNewsExtraTv",
+    img: image.CNETv,
+    alt: "CNETv",
+    link: "https://www.coinnewsextratv.com/",
   },
 ];
 
