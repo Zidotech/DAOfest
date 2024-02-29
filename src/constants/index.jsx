@@ -5,6 +5,24 @@ export { image };
 export const SpeakerCard = [
   {
     id: 1,
+    name: "Nick Almond ",
+    img: image.nick,
+    designation: "CEO, Factory DAO",
+    linkedin: "https://www.linkedin.com/in/drnicka/?originalSubdomain=uk",
+    linkedin_icon: image.linkdin,
+    x: "https://twitter.com/DrNickA ",
+    x_icon: image.twitter,
+  },
+  {
+    id: 2,
+    name: "peth.ETH",
+    img: image.peth,
+    designation: "Summoner at MetaFarm",
+    x: "https://twitter.com/petheth ",
+    x_icon: image.twitter,
+  },
+  {
+    id: 3,
     name: "Frisco D’Aconia",
     img: image.frisco,
     designation: "Founder, Timbuktu DAO",
@@ -15,29 +33,11 @@ export const SpeakerCard = [
     x_icon: image.twitter,
   },
   {
-    id: 2,
+    id: 4,
     name: "Feyisayo Onos",
     img: image.feyii,
     designation: "Crypto Influencer & DAO Specialist",
     x: "https://x.com/custommade_ng/",
-    x_icon: image.twitter,
-  },
-  {
-    id: 3,
-    name: "Nick Almond ",
-    img: image.nick,
-    designation: "CEO, Factory DAO",
-    linkedin: "https://www.linkedin.com/in/drnicka/?originalSubdomain=uk",
-    linkedin_icon: image.linkdin,
-    x: "https://twitter.com/DrNickA ",
-    x_icon: image.twitter,
-  },
-  {
-    id: 4,
-    name: "peth.ETH",
-    img: image.peth,
-    designation: "Summoner at MetaFarm",
-    x: "https://twitter.com/petheth ",
     x_icon: image.twitter,
   },
   {
@@ -68,6 +68,20 @@ export const SpeakerCard = [
     linkedin:
       "https://www.linkedin.com/in/deborah-enyone-oni-llb-bl-llm-nim-948638169?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     linkedin_icon: image.linkdin,
+  },
+  {
+    id: 8,
+    name: "Nataniel Lutz",
+    img: image.nathan,
+    designation: "CEO, Flincap",
+    x: "https://twitter.com/nathaniel_luz",
+    x_icon: image.twitter,
+  },
+  {
+    id: 9,
+    name: "Sylvia Chineye",
+    img: image.chineye,
+    designation: "Blockchain & Healthcare Expert",
   },
 ];
 
@@ -161,6 +175,13 @@ export const PartnerCard = [
     img: image.CNETv,
     alt: "CNETv",
     link: "https://www.coinnewsextratv.com/",
+  },
+  {
+    id: 7,
+    name: "Block Tides",
+    img: image.blocktides,
+    alt: "BlockTides",
+    link: "https://blocktides.com/",
   },
 ];
 

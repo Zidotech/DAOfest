@@ -31,6 +31,9 @@ import bitcionInsider from "../assets/bitcoininsider-logo-vertical.svg";
 import coinscapture from "../assets/Coinscapture-logo.svg";
 import deborah from "../assets/deborah.jpg";
 import CNETv from "../assets/coinnewsextratv.png";
+import blocktides from "../assets/blocktides.jpg";
+import nathan from "../assets/nataniel.jpg";
+import chineye from "../assets/chineye.jpg";
 
 export default {
   megaphone,
@@ -59,6 +62,8 @@ export default {
   nick,
   daniel,
   deborah,
+  chineye,
+  nathan,
   hand,
 
   // media partner
@@ -68,4 +73,5 @@ export default {
   bitcionInsider,
   coinscapture,
   CNETv,
+  blocktides,
 };
