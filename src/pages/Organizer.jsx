@@ -8,7 +8,7 @@ const Organizer = () => {
       </div>
 
       <div className="section pt-16">
-        <div className="flex sm:gap-16 gap-5 flex-wrap justify-center">
+        <div className="flex sm:gap-y-16 sm:gap-x-10 gap-5 flex-wrap justify-center">
           {OrganizerCard.map((card) => (
             <div key={card.id} className="sm:w-fit w-[160px]">
               <img
