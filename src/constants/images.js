@@ -34,6 +34,9 @@ import CNETv from "../assets/coinnewsextratv.png";
 import blocktides from "../assets/blocktides.jpg";
 import nathan from "../assets/nataniel.jpg";
 import chineye from "../assets/chineye.jpg";
+import katerine from "../assets/katerine.jpg";
+import muntala from "../assets/muntala.jpg";
+import wadudu from "../assets/wadudu.jpg";
 
 export default {
   megaphone,
@@ -65,6 +68,9 @@ export default {
   chineye,
   nathan,
   hand,
+  katerine,
+  muntala,
+  wadudu,
 
   // media partner
   coinpedia,
