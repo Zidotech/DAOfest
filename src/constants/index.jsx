@@ -33,6 +33,16 @@ export const SpeakerCard = [
   },
   {
     id: 4,
+    name: "Daniel Ospina",
+    img: image.ospina,
+    designation: "Co-Lead, RnDAO",
+    x: "https://twitter.com/_Daniel_Ospina",
+    x_icon: image.twitter,
+    linkedin: "https://www.linkedin.com/in/conductal/",
+    linkedin_icon: image.linkdin,
+  },
+  {
+    id: 5,
     name: "Frisco D’Aconia",
     img: image.frisco,
     designation: "Founder, Timbuktu DAO",
@@ -43,7 +53,7 @@ export const SpeakerCard = [
     x_icon: image.twitter,
   },
   {
-    id: 5,
+    id: 6,
     name: "Feyisayo Onos",
     img: image.feyii,
     designation: "Crypto Influencer & DAO Specialist",
@@ -51,7 +61,7 @@ export const SpeakerCard = [
     x_icon: image.twitter,
   },
   {
-    id: 6,
+    id: 7,
     name: "Daniel Anomfueme",
     img: image.daniel,
     designation: "Vita DAO & DeSci Africa",
@@ -59,7 +69,7 @@ export const SpeakerCard = [
     x_icon: image.twitter,
   },
   {
-    id: 7,
+    id: 8,
     name: "Sharry",
     img: image.sharon,
     designation: "Product Manager, Kleros",
@@ -69,7 +79,7 @@ export const SpeakerCard = [
     linkedin_icon: image.linkdin,
   },
   {
-    id: 8,
+    id: 9,
     name: "Deborah Enyone Oni",
     img: image.deborah,
     designation: "Managing Partner, Hilton Top Solicitors",
@@ -80,7 +90,7 @@ export const SpeakerCard = [
     linkedin_icon: image.linkdin,
   },
   {
-    id: 9,
+    id: 10,
     name: "Nataniel Lutz",
     img: image.nathan,
     designation: "CEO, Flincap",
@@ -88,7 +98,7 @@ export const SpeakerCard = [
     x_icon: image.twitter,
   },
   {
-    id: 10,
+    id: 11,
     name: "Sylvia Chineye",
     img: image.chineye,
     designation: "Blockchain & Healthcare Expert",
