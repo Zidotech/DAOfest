@@ -22,6 +22,7 @@ import asang from "../assets/asang.jpg";
 import peth from "../assets/peth.jpg";
 import nick from "../assets/nick.jpg";
 import daniel from "../assets/daniel.jpg";
+import ospina from "../assets/ospina.jpg";
 import sharon from "../assets/sharon.jpg";
 import hand from "../assets/tdesign_gesture-click.png";
 import cryptopolitan from "../assets/cryptopolitan.png";
@@ -63,6 +64,7 @@ export default {
   peth,
   sharon,
   nick,
+  ospina,
   daniel,
   deborah,
   chineye,
