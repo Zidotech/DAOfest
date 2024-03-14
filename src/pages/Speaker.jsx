@@ -13,7 +13,7 @@ const Speaker = () => {
       <div className="section pt-16">
         <div className="flex sm:gap-16 gap-5 flex-wrap justify-center">
           {SpeakerCard.map((card) => (
-            <div key={card.id} className="sm:w-fit w-[160px] ">
+            <div key={card.id} className="sm:w-[200px] w-[140px] ">
               <img
                 src={card.img}
                 alt=""
