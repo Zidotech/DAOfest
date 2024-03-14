@@ -24,6 +24,8 @@ import nick from "../assets/nick.jpg";
 import daniel from "../assets/daniel.jpg";
 import ospina from "../assets/ospina.jpg";
 import sharon from "../assets/sharon.jpg";
+import okeke from "../assets/okeke.jpg";
+import amaka from "../assets/amaka.jpg";
 import hand from "../assets/tdesign_gesture-click.png";
 import cryptopolitan from "../assets/cryptopolitan.png";
 import coinpedia from "../assets/coinpedia.png";
@@ -65,6 +67,8 @@ export default {
   sharon,
   nick,
   ospina,
+  amaka,
+  okeke,
   daniel,
   deborah,
   chineye,

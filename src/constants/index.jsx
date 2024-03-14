@@ -103,6 +103,22 @@ export const SpeakerCard = [
     img: image.chineye,
     designation: "Blockchain & Healthcare Expert",
   },
+  {
+    id: 12,
+    name: "Chidubem Okeke",
+    img: image.okeke,
+    designation: "AdvocatesDAO, Avocates Committee  and Grants Committee",
+    x: "https://twitter.com/chidubem_w3",
+    x_icon: image.twitter,
+    linkedin: "https://www.linkedin.com/in/christian-okeke/",
+    linkedin_icon: image.linkdin,
+  },
+  {
+    id: 13,
+    name: "Amaka Nwaokocha",
+    img: image.amaka,
+    designation: "Writer, Cointelegraph",
+  },
 ];
 
 export const OrganizerCard = [
