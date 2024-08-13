@@ -234,7 +234,7 @@ export const PartnerCard = [
 export const SchTabs = [
   {
     id: "1",
-    date: "31 May 2024",
+    date: "6 March 2025",
     content: [
       {
         id: 1,
@@ -268,7 +268,7 @@ export const SchTabs = [
   },
   {
     id: "2",
-    date: "1 June 2024",
+    date: "8 March 2025",
     content: [
       {
         id: 5,

@@ -1,8 +1,7 @@
 import CountdownTimer from "../utils/CountdownTimer";
 
 const Hero = () => {
-  const currentYear = new Date().getFullYear();
-  const targetDate = new Date(`${currentYear}-05-31T23:59:59`);
+  const targetDate = new Date(`2025-03-06T23:59:59`);
   return (
     <section className="hero__bg" id="home">
       <div className="absolute top-[13%] md:top-[18%]  w-full ">
@@ -10,15 +9,15 @@ const Hero = () => {
           <div className="sm:w-[60%] w-full mx-auto pt-4  flex flex-col gap-y-5 text-center justify-center  items-center">
             <div>
               <h4 className="text-[16px] font-Poppins text-Primary font-bold">
-                31 May - 1 June 2024
+                6 March - 8 March 2025
               </h4>
-              <h5 className="text-[16px] font-Poppins text-black font-normal">
-                Lagos, Nigeria
+              <h5 className="text-[16px] font-Poppins text-black font-medium">
+                Dar es Salaam, Tanzania
               </h5>
             </div>
 
             <h2 className="text-[44px] font-Lexend text-black font-normal">
-              DAO<span className="text-Primary">fest</span> 2024
+              DAO<span className="text-Primary">fest</span> 2025
             </h2>
 
             <div>

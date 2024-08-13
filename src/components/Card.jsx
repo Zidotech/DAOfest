@@ -11,7 +11,7 @@ const Card = () => {
             Become A Sponsor
           </h4>
           <p className="text-black font-Poppins font-medium">
-            Sponsor DAOfest 2024 to gain unparalleled exposure and align your
+            Sponsor DAOfest 2025 to gain unparalleled exposure and align your
             brand with decentralized innovation. Connect with a global audience
             of DAOists, Web3 enthusiasts, NGOs, and corporate bodies, showcasing
             your commitment to cutting-edge technologies. By supporting the
@@ -40,7 +40,7 @@ const Card = () => {
           </h4>
           <p className="text-black font-Poppins  pb-5 font-medium">
             Elevate your influence and shape the future of decentralized
-            coordination by becoming a speaker at DAOFest 2024. As a speaker,
+            coordination by becoming a speaker at DAOFest 2025. As a speaker,
             share your expertise with a global audience of DAOists, Web3
             enthusiasts, NGOs, and corporate bodies. Position yourself as a
             thought leader, contribute to the discourse on decentralized
@@ -73,7 +73,7 @@ const Card = () => {
             unparalleled opportunity to spotlight your project or idea, gaining
             valuable mentorship and resources for sustained success. Whether you
             assemble a dynamic team or present independently, showcasing your
-            DAO at DAOfest 2024 offers more than recognition—it's a golden
+            DAO at DAOfest 2025 offers more than recognition—it's a golden
             chance to establish your project as a trailblazer in decentralized
             technologies, leaving an enduring imprint on the evolving landscape
             with enticing prizes and invaluable mentorship support.

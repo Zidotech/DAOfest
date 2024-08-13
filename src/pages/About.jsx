@@ -11,7 +11,7 @@ const About = () => {
           <img src={image.about} alt="" />
 
           <p className="sm:w-[50%] w-full font-Poppins font-medium">
-            DAOfest 2024 is a premier gathering of DAOists, Web3 experts and
+            DAOfest 2025 is a premier gathering of DAOists, Web3 experts and
             enthusiasts, NGOs, communities, and corporate bodies from across the
             globe, converging in Africa to explore, intensify, and shape
             decentralized coordination. As the go-to DAO event of the year,
