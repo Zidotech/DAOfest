@@ -268,6 +268,40 @@ export const SchTabs = [
   },
   {
     id: "2",
+    date: "7 March 2025",
+    content: [
+      {
+        id: 1,
+        time: "11 : 00",
+        img: image.eclipse,
+        topic: "How to manage a DAO community",
+        name: "Daniel Henry",
+      },
+      {
+        id: 2,
+        time: "11 : 30",
+        img: image.eclipse,
+        topic: "How to manage a DAO community",
+        name: "Daniel Henry",
+      },
+      {
+        id: 3,
+        time: "12 : 00",
+        img: image.eclipse,
+        topic: "How to manage a DAO community",
+        name: "Daniel Henry",
+      },
+      {
+        id: 4,
+        time: "1 : 00",
+        img: "",
+        topic: "Tea Break",
+        name: "",
+      },
+    ],
+  },
+  {
+    id: "3",
     date: "8 March 2025",
     content: [
       {
