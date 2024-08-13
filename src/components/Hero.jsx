@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="sm:w-[60%] w-full mx-auto pt-4  flex flex-col gap-y-5 text-center justify-center  items-center">
             <div>
               <h4 className="text-[16px] font-Poppins text-Primary font-bold">
-                6 March - 8 March 2025
+                6 - 8 March 2025
               </h4>
               <h5 className="text-[16px] font-Poppins text-black font-medium">
                 Dar es Salaam, Tanzania
